@@ -6,18 +6,20 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,json
 version = 1.0
 
-requirements = python3==3.10.12,hostpython3==3.10.12,kivy==2.3.0,pyjnius
+requirements = python3==3.10.12,hostpython3==3.10.12,kivy==2.3.0,pyjnius,android
 
 orientation = portrait
 fullscreen = 0
 
-# Android 12+ Bluetooth, Ses, Konum ve Arka Plan Izinleri
 android.permissions = BLUETOOTH,BLUETOOTH_ADMIN,BLUETOOTH_ADVERTISE,BLUETOOTH_CONNECT,ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION,MODIFY_AUDIO_SETTINGS,WAKE_LOCK,FOREGROUND_SERVICE,POST_NOTIFICATIONS
 
 android.api = 33
 android.minapi = 21
+android.ndk = 25b
 android.accept_sdk_license = True
 android.archs = arm64-v8a
+
+p4a.branch = release-2024.01.21
 
 [buildozer]
 log_level = 2
