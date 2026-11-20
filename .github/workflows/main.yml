@@ -30,7 +30,7 @@ jobs:
 
       - name: APK Uret
         run: |
-          yes | buildozer android debug
+          buildozer android debug
 
       - name: Uretilen APK Dosyasini Yukle
         uses: actions/upload-artifact@v4
