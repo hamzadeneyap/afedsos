@@ -20,6 +20,7 @@ android.accept_sdk_license = True
 android.archs = arm64-v8a
 
 p4a.branch = develop
+p4a.skip_recipes = libthorvg
 
 [buildozer]
 log_level = 2
