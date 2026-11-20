@@ -15,12 +15,11 @@ android.permissions = BLUETOOTH,BLUETOOTH_ADMIN,BLUETOOTH_ADVERTISE,BLUETOOTH_CO
 
 android.api = 33
 android.minapi = 21
-android.ndk = 25b
+android.ndk = 26b
 android.accept_sdk_license = True
 android.archs = arm64-v8a
 
 p4a.branch = develop
-p4a.skip_recipes = libthorvg
 
 [buildozer]
 log_level = 2
